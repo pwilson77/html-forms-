@@ -1,3 +1,4 @@
+
 body {
 	width:100%;
 	height: auto;
@@ -52,4 +53,43 @@ body {
 	color: initial;
 	text-decoration:none;
 	margin-left: 4px;
+
+.form-container{
+
+}
+
+.header{
+
+}
+
+.logo{
+
+}
+
+.navbar{
+
+}
+
+form{
+
+}
+
+.form-head{
+
+}
+
+.form-desc{
+
+}
+
+.form-body{
+
+}
+
+fieldset{
+
+}
+
+.form-footer{
+
 }
