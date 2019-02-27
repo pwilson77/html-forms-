@@ -1,0 +1,54 @@
+body {
+	width:100%;
+	height: auto;
+	overflow-x: hidden;
+	background-color: #eceef1;
+}
+
+.signinContainer {
+	float: right;
+	width: 26%;
+	height: 60px;
+	display: flex;
+
+}
+
+.footer {
+	width: 80%;
+	margin: 0px 10% 0px 10%;
+	height: 99px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: smaller;
+	text-align: center
+}
+
+.signinText {
+	font-size: small;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.signinText a{
+	color: rgb(0, 119, 197);
+	text-decoration: none;
+}
+.signinContainer button {
+	background-color: rgb(0, 119, 197);
+	width: 102px;
+	height: 34px;
+	margin: 20px 0px 0 15px;
+	border-color: #7d7a7ac4;
+	color: white;
+	border-radius: 2px;
+}
+.signinContainer button i {
+	padding-right: 5px;
+}
+
+.footer.link-container {
+	display: flex;
+}
+
+.footer a {
+	color: initial;
+	text-decoration:none;
+}
