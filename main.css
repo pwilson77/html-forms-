@@ -3,7 +3,9 @@ body {
 	width:100%;
 	height: auto;
 	overflow-x: hidden;
-	background-color: #eceef1;
+    background-color: #eceef1;
+    font-family: 'Open Sans', sans-serif;
+
 }
 
 .signinContainer {
@@ -18,14 +20,12 @@ body {
 	width: 80%;
 	margin: 0px 10% 0px 10%;
 	height: 99px;
-	font-family: 'Open Sans', sans-serif;
 	font-size: smaller;
 	text-align: center
 }
 
 .signinText {
 	font-size: small;
-	font-family: 'Open Sans', sans-serif;
 }
 
 .signinText a{
@@ -52,10 +52,15 @@ body {
 .footer a {
 	color: initial;
 	text-decoration:none;
-	margin-left: 4px;
+    margin-left: 4px;
+}
 
 .form-container{
-
+    width: 30%;
+    height: auto;
+    margin: 50px auto;
+    text-align: center;
+    color: #4C4C4C;
 }
 
 .header{
@@ -63,7 +68,12 @@ body {
 }
 
 .logo{
+    width: 10%;
+    align-self: center;
+}
 
+.logo img{
+    width: 100%;
 }
 
 .navbar{
@@ -71,7 +81,10 @@ body {
 }
 
 form{
-
+    background-color: #ffffff;
+    border: #ddd solid 1px;
+    /* border-radius: 10%; */
+    padding: 10px;
 }
 
 .form-head{
@@ -86,9 +99,28 @@ form{
 
 }
 
-fieldset{
-
-}
+.form-body label {
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 0.85em;
+    text-align: left;
+  }
+  .form-body input{
+    border: 1px solid #c6c9cc;
+    border-radius: 5px;
+    color: #888;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 5px 8px;
+  }
+  .form-body input{
+    width: 80%;
+  }
+  .form-body select {
+    height: 34px;
+    width: 60px;
+  }
 
 .form-footer{
 
