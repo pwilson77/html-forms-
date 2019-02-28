@@ -9,8 +9,8 @@ body {
 }
 
 .signinContainer {
-	float: right;
-	width: 26%;
+	width: 100%;
+    padding-left: 73%;
 	height: 60px;
 	display: flex;
 
@@ -68,8 +68,9 @@ body {
 }
 
 .logo{
-    width: 10%;
-    align-self: center;
+    width: 118px;
+    height: 75px;
+    margin-left: 35%;
 }
 
 .logo img{
@@ -77,7 +78,14 @@ body {
 }
 
 .navbar{
+	display: flex;
+}
 
+.navbar img {
+	width: 28px;
+	height: 28px;
+	 margin-left: 30px;
+    margin-bottom: 20px;
 }
 
 form{
