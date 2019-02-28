@@ -1,0 +1,154 @@
+
+body {
+	width:100%;
+	height: auto;
+	overflow-x: hidden;
+    background-color: #eceef1;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.signinContainer {
+	width: 100%;
+    padding-left: 73%;
+	height: 60px;
+	display: flex;
+
+}
+
+.footer {
+	width: 70%;
+    margin: 0px 15% 0px 15%;
+	height: 99px;
+	font-size: smaller;
+	text-align: center
+}
+
+.signinText {
+	font-size: small;
+}
+
+.signinText a{
+	color: rgb(0, 119, 197);
+	text-decoration: none;
+}
+.signinContainer button {
+	background-color: rgb(0, 119, 197);
+	width: 102px;
+	height: 34px;
+	margin: 20px 0px 0 15px;
+	border-color: #7d7a7ac4;
+	color: white;
+	border-radius: 2px;
+}
+.signinContainer button i {
+	padding-right: 5px;
+}
+
+.footer.link-container {
+	display: flex;
+}
+
+.footer a {
+	color: initial;
+	text-decoration:none;
+    margin-left: 4px;
+}
+
+.form-container{
+	width: 380px;
+    height: auto;
+    margin: 50px auto;
+    text-align: center;
+    color: #4C4C4C;
+    font-size: 0.85em;
+}
+
+
+.logo{
+    width: 118px;
+    height: 75px;
+    margin-left: 35%;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.navbar{
+	display: flex;
+}
+
+.navbar img {
+	width: 28px;
+	height: 28px;
+	 margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+form{
+    background-color: #ffffff;
+    border: #ddd solid 1px;
+    padding: 20px;
+}
+
+
+.form-body label {
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 1em;
+    text-align: left;
+  }
+  .form-body input{
+    border: 1px solid #c6c9cc;
+    border-radius: 5px;
+    color: #888;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 5px 8px;
+    border-radius: 3px;
+    width: 100%;
+    height: 30px;
+  }
+  .form-body input{
+    width: 80%;
+  }
+  .form-body select {
+    height: 34px;
+    width: 60px;
+  }
+
+  .btn-default {
+    border: 0;
+    background: #071cda;
+    padding: 11px 100px;
+    font-size: 14px;
+    color: #ffffff;
+    border-radius: 5px;
+  }
+  .btn-default:hover {
+    background: #071cdae1;
+  }
+  
+  .recaptcha{
+      font-weight: 300;
+  }
+
+.form-body button {
+	 background-color: rgb(0, 119, 197);
+}
+
+@media only screen and (max-width: 1100px) {
+
+	.signinContainer {
+		   padding-left: 60%;
+	}
+}
+
+@media only screen and (max-width: 770px) {
+
+	.signinContainer {
+		   display: none;
+	}
+}
